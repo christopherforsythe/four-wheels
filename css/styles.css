@@ -1,0 +1,26 @@
+/**************************TAG SELECTOR*******************/
+
+body {
+    margin: auto;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.top-container {
+    background-color: bisque;
+}
+
+.middle-container {
+    background-color: aqua;
+}
+
+.bottom-container {
+    background-color: beige;
+}
+
+
