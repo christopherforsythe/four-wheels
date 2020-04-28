@@ -1,0 +1,185 @@
+/**************************TAG SELECTOR*******************/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    line-height: .5;
+}
+
+h5 {
+    text-align: left;
+    line-height: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: smaller;
+}
+
+
+/**************************CLASS SELECTOR*******************/
+
+
+.top-container {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 10px;
+}
+
+.title {
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: end;
+    margin-left: 6.5px;
+}
+
+.menu {
+    grid-column: 2/5;
+    align-self: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.bar {
+    padding: 45px;
+    font-size: smaller;
+}
+
+.bar:hover {
+    color: darkorange;
+    text-decoration: underline;
+
+}
+
+a:hover {
+    color: darkorange;
+    background-color: black;
+    opacity: .9;
+    transition: .4s;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+.middle-container {
+    margin-top: 20px;
+    width: 100vw;
+
+}
+
+.video-box {
+    width: 75%;
+    height: 55%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    padding: 30px;
+}
+
+.video {
+    width: 60%;
+    height: 110%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.video-text {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-weight: normal;
+
+}
+
+
+.hr-row {
+    border-style: none;
+    border-top-style: double;
+    width: 5%;
+    border-width: 5px;
+}
+
+.bottom-container {
+    opacity: 0.8;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.next-button {
+    position: absolute;
+    right: 5%;
+    bottom: ;
+    opacity: 1;
+    font-size: .65rem;
+    color: black;
+}
+
+.previous-button {
+    position: absolute;
+    left: 5%;
+    bottom: %;
+    font-size: .65rem;
+    color: black;
+}
+
+
+.sign-off {
+    font-style: italic;
+    font-size: .645rem;
+    margin-top: 10px;
+    padding: 5px
+}
+
+

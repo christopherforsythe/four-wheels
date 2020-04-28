@@ -1,0 +1,181 @@
+/*******************************TAG SELECTOR*************************/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+        margin: auto;
+        text-align: center;
+        width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+p {
+    width: 30%;
+    font-family: 'Playfair Display', serif;
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: double;
+    width: 12%;
+    border-width: 5px;
+
+}
+
+/*******************************CLASS SELECTOR***************************/
+
+.top-container {
+    width: 100vw;
+}
+
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 10px;
+}
+
+.title {
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: end;
+    margin-left: 6.5px;
+}
+
+.menu {
+    grid-column: 2/5;
+    align-self: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.bar {
+    padding: 45px;
+    font-size: smaller;
+}
+
+.bar:hover {
+    color: darkorange;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: none;
+
+}
+
+a:hover {
+    color: darkorange;
+    background-color: black;
+    opacity: .96;
+}
+
+.middle-container {
+    margin: 70px auto 0 auto;
+    width: 100vw;
+}
+
+.intro {
+    width: 35%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.three-spots {
+    width: 100vw;
+}
+
+
+.brooklyn-banks-trick {
+    width: 70%;
+    float: right;
+    margin-left: 40px;
+}
+
+.flushing-meadows {
+    width: 70%;
+    float: right;
+    margin-left: 40px;
+}
+
+.courthouse {
+    width: 70%;
+    float: right;
+    margin-left: 40px;
+}
+
+.spot-row {
+    width: 60%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    padding: 30px;
+}
+
+
+.hr-row {
+    border-style: none;
+    border-top-style: double;
+    width: 5%;
+    border-width: 5px;
+}
+
+
+.bottom-container {
+    position: relative;
+    opacity: 0.8;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.next-button {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    opacity: 1;
+    font-size: .65rem;
+    color: black;
+}
+
+.previous-button {
+    position: absolute;
+    left: 5%;
+    bottom: 21%;
+    opacity: 1;
+    font-size: .65rem;
+    color: black;
+
+}
+
+.sign-off {
+    margin: auto;
+    font-style: italic;
+    font-size: .695rem;
+    margin-bottom: 10px;
+}
+
+

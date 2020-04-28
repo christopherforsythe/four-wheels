@@ -1,0 +1,155 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+h4 {
+    font-size: .8rem;
+    font-family: 'Permanent Marker', cursive;
+    line-height: .5;
+    font-weight: lighter;
+}
+
+h5 {
+    text-align: left;
+    line-height: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: smaller;
+}
+
+/**************************CLASS SELECTOR*******************/
+
+.intro {
+    width: 30%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.top-container {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 10px;
+}
+
+.title {
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: end;
+    margin-left: 6.5px;
+}
+
+.menu {
+    grid-column: 2/5;
+    align-self: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.bar {
+    padding: 45px;
+    font-size: smaller;
+}
+
+.bar:hover {
+    color: darkorange;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: none;
+
+}
+
+a:hover {
+    color: darkorange;
+    background-color: black;
+    opacity: .9;
+}
+
+
+.middle-container {
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+.desc {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.music-player {
+    height: 500px;
+    width: 450px;
+    padding: 15px auto 30px auto;
+}
+
+.album-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-top: 60px;
+}
+
+
+.image {
+    height: 230px;
+    width: 250px;
+}
+
+.bottom-container {
+    position: relative;
+    opacity: 0.8;
+    margin: auto;
+    align-items: center;
+}
+
+
+.sign-off {
+    margin: auto;
+    font-style: italic;
+    font-size: .695rem;
+    margin-bottom: 10px;
+}
